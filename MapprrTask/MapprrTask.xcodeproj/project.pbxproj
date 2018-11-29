@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A3136FC321B016FA0091099B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3136FC221B016FA0091099B /* AppDelegate.swift */; };
-		A3136FC521B016FA0091099B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3136FC421B016FA0091099B /* ViewController.swift */; };
-		A3136FC821B016FA0091099B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3136FC621B016FA0091099B /* Main.storyboard */; };
 		A3136FCA21B016FB0091099B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3136FC921B016FB0091099B /* Assets.xcassets */; };
 		A3136FCD21B016FB0091099B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3136FCB21B016FB0091099B /* LaunchScreen.storyboard */; };
+		A3136FE821B017E20091099B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3136FD421B017E00091099B /* AppDelegate.swift */; };
+		A3136FE921B017E20091099B /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3136FD621B017E00091099B /* NetworkManger.swift */; };
+		A3136FEA21B017E20091099B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3136FD721B017E00091099B /* Main.storyboard */; };
+		A3136FEB21B017E20091099B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3136FDA21B017E20091099B /* ViewController.swift */; };
+		A3136FEC21B017E20091099B /* RepositoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3136FDB21B017E20091099B /* RepositoriesTableViewCell.xib */; };
+		A3136FED21B017E20091099B /* RepositoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3136FDC21B017E20091099B /* RepositoriesTableViewCell.swift */; };
+		A3136FEE21B017E20091099B /* ContributersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3136FDF21B017E20091099B /* ContributersCollectionViewCell.swift */; };
+		A3136FEF21B017E20091099B /* ReposWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3136FE021B017E20091099B /* ReposWebViewController.swift */; };
+		A3136FF021B017E20091099B /* SelectedReposDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3136FE121B017E20091099B /* SelectedReposDataViewController.swift */; };
+		A3136FF121B017E20091099B /* RepositoryDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3136FE321B017E20091099B /* RepositoryDescriptionViewController.swift */; };
+		A3136FF221B017E20091099B /* ReposTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3136FE521B017E20091099B /* ReposTableViewCell.swift */; };
+		A3136FF321B017E20091099B /* ReposTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3136FE621B017E20091099B /* ReposTableViewCell.xib */; };
+		A3136FF421B017E20091099B /* ContributorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3136FE721B017E20091099B /* ContributorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A3136FBF21B016FA0091099B /* MapprrTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapprrTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3136FC221B016FA0091099B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3136FC421B016FA0091099B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A3136FC721B016FA0091099B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3136FC921B016FB0091099B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3136FCC21B016FB0091099B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3136FCE21B016FB0091099B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3136FD421B017E00091099B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../MapprrTask2/MapPrrTask/MapPrrTask/AppDelegate.swift; sourceTree = "<group>"; };
+		A3136FD621B017E00091099B /* NetworkManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		A3136FD721B017E00091099B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A3136FDA21B017E20091099B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3136FDB21B017E20091099B /* RepositoriesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepositoriesTableViewCell.xib; sourceTree = "<group>"; };
+		A3136FDC21B017E20091099B /* RepositoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesTableViewCell.swift; sourceTree = "<group>"; };
+		A3136FDF21B017E20091099B /* ContributersCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContributersCollectionViewCell.swift; sourceTree = "<group>"; };
+		A3136FE021B017E20091099B /* ReposWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposWebViewController.swift; sourceTree = "<group>"; };
+		A3136FE121B017E20091099B /* SelectedReposDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedReposDataViewController.swift; sourceTree = "<group>"; };
+		A3136FE321B017E20091099B /* RepositoryDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryDescriptionViewController.swift; sourceTree = "<group>"; };
+		A3136FE521B017E20091099B /* ReposTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposTableViewCell.swift; sourceTree = "<group>"; };
+		A3136FE621B017E20091099B /* ReposTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReposTableViewCell.xib; sourceTree = "<group>"; };
+		A3136FE721B017E20091099B /* ContributorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContributorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,80 @@
 		A3136FC121B016FA0091099B /* MapprrTask */ = {
 			isa = PBXGroup;
 			children = (
-				A3136FC221B016FA0091099B /* AppDelegate.swift */,
-				A3136FC421B016FA0091099B /* ViewController.swift */,
-				A3136FC621B016FA0091099B /* Main.storyboard */,
+				A3136FD421B017E00091099B /* AppDelegate.swift */,
+				A3136FD821B017E10091099B /* Controllers */,
+				A3136FD721B017E00091099B /* Main.storyboard */,
+				A3136FD521B017E00091099B /* NetworkManager */,
 				A3136FC921B016FB0091099B /* Assets.xcassets */,
 				A3136FCB21B016FB0091099B /* LaunchScreen.storyboard */,
 				A3136FCE21B016FB0091099B /* Info.plist */,
 			);
 			path = MapprrTask;
+			sourceTree = "<group>";
+		};
+		A3136FD521B017E00091099B /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				A3136FD621B017E00091099B /* NetworkManger.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		A3136FD821B017E10091099B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3136FD921B017E20091099B /* RepositoriesListViewController */,
+				A3136FDD21B017E20091099B /* SelectedRepositoryDataViewController */,
+				A3136FE221B017E20091099B /* RepositoryDescriptionViewController */,
+				A3136FE421B017E20091099B /* ContributorViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A3136FD921B017E20091099B /* RepositoriesListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A3136FDA21B017E20091099B /* ViewController.swift */,
+				A3136FDB21B017E20091099B /* RepositoriesTableViewCell.xib */,
+				A3136FDC21B017E20091099B /* RepositoriesTableViewCell.swift */,
+			);
+			path = RepositoriesListViewController;
+			sourceTree = "<group>";
+		};
+		A3136FDD21B017E20091099B /* SelectedRepositoryDataViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A3136FDE21B017E20091099B /* ContributersCollectionViewCell */,
+				A3136FE021B017E20091099B /* ReposWebViewController.swift */,
+				A3136FE121B017E20091099B /* SelectedReposDataViewController.swift */,
+			);
+			path = SelectedRepositoryDataViewController;
+			sourceTree = "<group>";
+		};
+		A3136FDE21B017E20091099B /* ContributersCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A3136FDF21B017E20091099B /* ContributersCollectionViewCell.swift */,
+			);
+			path = ContributersCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		A3136FE221B017E20091099B /* RepositoryDescriptionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A3136FE321B017E20091099B /* RepositoryDescriptionViewController.swift */,
+			);
+			path = RepositoryDescriptionViewController;
+			sourceTree = "<group>";
+		};
+		A3136FE421B017E20091099B /* ContributorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A3136FE521B017E20091099B /* ReposTableViewCell.swift */,
+				A3136FE621B017E20091099B /* ReposTableViewCell.xib */,
+				A3136FE721B017E20091099B /* ContributorViewController.swift */,
+			);
+			path = ContributorViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +209,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3136FCD21B016FB0091099B /* LaunchScreen.storyboard in Resources */,
+				A3136FEC21B017E20091099B /* RepositoriesTableViewCell.xib in Resources */,
 				A3136FCA21B016FB0091099B /* Assets.xcassets in Resources */,
-				A3136FC821B016FA0091099B /* Main.storyboard in Resources */,
+				A3136FF321B017E20091099B /* ReposTableViewCell.xib in Resources */,
+				A3136FEA21B017E20091099B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +223,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3136FC521B016FA0091099B /* ViewController.swift in Sources */,
-				A3136FC321B016FA0091099B /* AppDelegate.swift in Sources */,
+				A3136FEB21B017E20091099B /* ViewController.swift in Sources */,
+				A3136FED21B017E20091099B /* RepositoriesTableViewCell.swift in Sources */,
+				A3136FE821B017E20091099B /* AppDelegate.swift in Sources */,
+				A3136FE921B017E20091099B /* NetworkManger.swift in Sources */,
+				A3136FF021B017E20091099B /* SelectedReposDataViewController.swift in Sources */,
+				A3136FEF21B017E20091099B /* ReposWebViewController.swift in Sources */,
+				A3136FF221B017E20091099B /* ReposTableViewCell.swift in Sources */,
+				A3136FF421B017E20091099B /* ContributorViewController.swift in Sources */,
+				A3136FF121B017E20091099B /* RepositoryDescriptionViewController.swift in Sources */,
+				A3136FEE21B017E20091099B /* ContributersCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A3136FC621B016FA0091099B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3136FC721B016FA0091099B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A3136FCB21B016FB0091099B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
